@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="my">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2b1024">
+<title>For My Love 💗</title>
+<style>
+:root{--pink:#ff7bb4;--deep:#2b1024;--cream:#fff5f8}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Noto Sans Myanmar",sans-serif;background:radial-gradient(circle at top,#6a2450 0,#2b1024 55%,#150b18 100%);color:var(--cream);min-height:100vh;overflow-x:hidden}
+button,input{font:inherit}
+.hidden{display:none!important}
+#gate{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:22px;position:relative}
+.panel{width:min(100%,420px);text-align:center;padding:30px 22px;border:1px solid #ffffff35;background:#ffffff12;backdrop-filter:blur(10px);border-radius:26px;box-shadow:0 20px 70px #0005}
+.big-heart{font-size:58px;animation:pulse 1.5s infinite}
+h1,h2{line-height:1.35}
+h1{font-size:clamp(26px,7vw,38px);margin:8px 0}
+p{line-height:1.9}
+.muted{color:#f5cfe0}
+input[type=password]{width:100%;padding:14px;border-radius:14px;border:1px solid #ffffff50;background:#fff;color:#34142b;margin:12px 0;outline:none}
+.btn{border:0;border-radius:999px;padding:13px 22px;background:linear-gradient(135deg,#ff8abf,#ff4e9a);color:#3c112b;font-weight:800;cursor:pointer;box-shadow:0 8px 25px #ff4e9a35}
+#error{color:#ffd0df;min-height:24px}
+#surprise{max-width:760px;margin:auto;padding:28px 18px 70px;text-align:center;position:relative}
+.tag{letter-spacing:3px;color:#ffc3df;font-size:12px}
+.hero{padding:35px 12px 22px}
+.hero h1{font-size:clamp(32px,8vw,58px);text-shadow:0 0 22px #ff77b7aa}
+.subtitle{font-size:17px;color:#ffe1ed}
+.card{margin:22px 0;padding:22px;border-radius:24px;background:#ffffff10;border:1px solid #ffffff25;box-shadow:0 12px 45px #0002}
+.photo-frame{width:min(100%,330px);aspect-ratio:4/5;margin:18px auto;border-radius:22px;border:2px solid #ffb3d3;background:linear-gradient(135deg,#572344,#32162d);display:flex;align-items:center;justify-content:center;overflow:hidden;color:#ffd4e5}
+.photo-frame img{width:100%;height:100%;object-fit:cover}
+.note{font-size:17px;white-space:pre-line}
+.flower{font-size:36px;display:inline-block;animation:sway 3s ease-in-out infinite}
+.heart{position:fixed;bottom:-40px;pointer-events:none;animation:floatUp linear forwards;z-index:20;opacity:.9}
+footer{color:#e9bad0;font-size:12px;margin-top:36px}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.13)}}
+@keyframes sway{0%,100%{transform:rotate(-8deg) translateY(0)}50%{transform:rotate(8deg) translateY(-7px)}}
+@keyframes floatUp{to{transform:translateY(-115vh) rotate(35deg);opacity:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<section id="gate">
+  <div class="panel">
+    <div class="big-heart">💗</div>
+    <div class="tag">A LITTLE SURPRISE FOR YOU</div>
+    <h1>For My Love</h1>
+    <p class="muted">မင်းအတွက် အထူးပြင်ဆင်ထားတဲ့ surprise လေးပါ။<br>Password ထည့်ပြီး ဖွင့်ကြည့်နော် 💌</p>
+    <form id="unlockForm">
+      <input id="password" type="password" placeholder="Enter password..." autocomplete="off" aria-label="Password" required>
+      <button class="btn" type="submit">Open My Surprise 💖</button>
+    </form>
+    <p id="error" role="status"></p>
+    <small class="muted">Hint: ဒီစာကို မင်းစိတ်ကြိုက် ပြင်နိုင်တယ်။</small>
+  </div>
+</section>
+
+<main id="surprise" class="hidden">
+  <div class="hero">
+    <div class="flower">🌸 🌷 🌸</div>
+    <div class="tag">love</div>
+    <h1>Hey baby,<br><span id="herName">My Love</span> 💜</h1>
+    <p class="subtitle">ကမ္ဘာပေါ်မှာ အပြုံးအလှဆုံးလေးအတွက် 💗</p>
+    <div class="flower">🌹 ✨ 🌹</div>
+  </div>
+  <section class="card">
+ 
+<div style="font-size:70px;text-align:center;padding:25px 0;">
+  💗
+  <p style="font-size:18px;">Made with Love 🌹</p>
+</div>
+
+    <h2>To My Favorite Person 💕</h2>
+    <p class="note" id="wish"> ကိုယ်အချစ်ဆုံးလေးရေ။
+      မင်းကို ပျော်ရွှင်မှုတွေအပြည့်နက် အမြဲတမ်းထားချင်တယ်။ မင်းရဲ့အိပ်မက်တွေအားလုံး တစ်ခုပြီးတစ်ခု အကောင်အထည်ဖော်ပေးချင်တယ်။
+
+မင်းပြုံးနေတာကို မြင်ရတာ ကိုယ့်အတွက် အရမ်းတန်ဖိုးရှိတယ်။ အမြဲတမ်း ကျန်းမာရေးကိုယ်ဂရုစိုက်ပြီး ပျော်ရွှင်အောင်အမြဲထားမယ်။
+      my heart is always with you. I love you. 💗</p>
+    <div class="flower">🌷 🌷 🌷</div>
+  </section>
+  <section class="card">
+    <h2>One more thing… 💌</h2>
+    <p class="note">မင်းအတွက် ဒီ surprise လေးကို ကိုယ်တိုင်ပြင်ဆင်ထားတာပါ။<br> အပြုံးတွေအများကြီး ရပါစေနော်။</p>
+    <button class="btn" id="moreBtn">Tap for a hug 🤗</button>
+    <p id="extra" class="hidden">အဝေးမှာရှိနေပေမယ့် ကိုယ့်ရဲ့အချစ်တွေက မင်းဆီရောက်နေတယ်။ 💞🌸</p>
+  </section>
+  <footer>Made with love 💗 · Just for you</footer>
+</main>
+<script>
+/* CHANGE THIS PASSWORD before sharing. This is a simple client-side gate, not strong security. */
+const SITE_PASSWORD = "loveyou1";
+const form = document.getElementById("unlockForm");
+form.addEventListener("submit", function(e){
+  e.preventDefault();
+  const entered = document.getElementById("password").value;
+  if(entered === SITE_PASSWORD){
+    document.getElementById("gate").classList.add("hidden");
+    document.getElementById("surprise").classList.remove("hidden");
+    document.getElementById("error").textContent = "";
+    window.scrollTo(0,0);
+    setInterval(makeHeart, 750);
+  } else {
+    document.getElementById("error").textContent = "Password မမှန်သေးဘူးနော် 💗 ပြန်စမ်းကြည့်ပါ။";
+  }
+});
+document.getElementById("moreBtn").addEventListener("click",()=>{
+  document.getElementById("extra").classList.toggle("hidden");
+  for(let i=0;i<12;i++) setTimeout(makeHeart,i*100);
+});
+function makeHeart(){
+  const el=document.createElement("span");
+  el.className="heart";
+  el.textContent=["💗","💕","💖","🌸","✨","🌷"][Math.floor(Math.random()*6)];
+  el.style.left=Math.random()*100+"vw";
+  el.style.fontSize=(18+Math.random()*20)+"px";
+  el.style.animationDuration=(4+Math.random()*4)+"s";
+  document.body.appendChild(el);
+  setTimeout(()=>el.remove(),8500);
+}
+</script>
+</body>
+</html>
